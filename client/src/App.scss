@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+// @import './global/global';
+
+html {
+  font-size: 10px;
+}
+
+.App {
+  background-color: #000000cc;
+  // background-color: $bg-color;
+  // color: $text-color;
+  color: #ffffff;
+  font-family: 'Fira Sans', sans-serif;
+  min-height: 100vh;
+  padding: 5rem 3rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

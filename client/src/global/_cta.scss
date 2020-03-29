@@ -1,0 +1,48 @@
+.Cta {
+    border: 0.1rem solid $text-color;
+    border-radius: 10rem;
+    color: #fff;
+    display: inline-block;
+    letter-spacing: .15rem;
+    margin: 1.5rem 0;
+    overflow: hidden;
+    padding: .75rem 1.25rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s;
+    z-index: 1;
+
+    &:after {
+        background-color: $color-1;
+        border-radius: 10rem;
+        bottom: 0;
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        z-index: -2;
+    }
+
+    &:before {
+        background-color: $color-3;
+        border-radius: 10rem;
+        bottom: 0;
+        content: '';
+        left: 0;
+        height: 100%;
+        position: absolute;
+        transition: all .3s;
+        width: 0%;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: $text-color;
+
+        &:before {
+            width: 100%;
+        }
+    }
+}

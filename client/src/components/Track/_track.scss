@@ -1,0 +1,10 @@
+@import '../../global/global.scss';
+
+.Track {
+    border-bottom: 0.1rem solid $color-1;
+    padding: 1rem 0;
+
+    &:last-child {
+        border-bottom: 0;
+    }
+}

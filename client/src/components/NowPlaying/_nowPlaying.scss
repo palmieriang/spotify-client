@@ -1,0 +1,9 @@
+@import '../../global/global';
+
+.NowPlaying {
+    margin: $spacer-medium 0;
+
+    .Track {
+        border-bottom: 0;
+    }
+}
